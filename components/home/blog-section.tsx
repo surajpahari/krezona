@@ -1,45 +1,56 @@
-import { EventCard } from "./cards/eventCard"
+import { BlogCard } from "./cards/blogCard"
 import Event1 from "@/public/event1.png"
 import { Button } from "../ui/button"
 import Event2 from "@/public/event2.png"
 import Event3 from "@/public/event3.png"
 
-export const EventSection = () => {
+export const BlogSection = () => {
   return (
     <>
       <div>
         <div className=" text-center tracking-[3px] text-base opacity-50 mb-4">
-          OUR BLOGS
+          GAME EVENTS
         </div>
         <div className="text-center mb-12 text-barlow-condensed text-[56px] leading-[64px] font-light">
-          Lastes Game Articles
+          Welcome to Game Events
         </div>
         <div className="font-normal leading-8 opacity-50 text-center mb-[70px]">
-          Video game developers take a designer's concepts and build them into a playable <br /> game for users developers, also known as games developers.
+          Video game developers take a designer's concepts and build them into a playable<br /> game for users.
         </div>
         <div className="flex gap-[30px] items-center justify-center flex-wrap">
-          <EventCard
+          <BlogCard
             image={Event1}
             alt="image1"
             description="20 Nov Award"
-            title="Best Game Award"
+            title=<p>"The Complete Guide Average Video
+              <br />
+              Game Designer Salary"</p>
           />
-          <EventCard
+
+          <BlogCard
             image={Event2}
-            alt="image1"
+            alt="image2"
             description="20 Nov Award"
-            title="Best Game Award"
+
+            title=<p>
+              The 5 Decisive Components
+              <br />
+              of Outstanding Learning Games
+            </p>
           />
-          <EventCard
+
+          <BlogCard
             image={Event3}
-            alt="image1"
+            alt="image3"
             description="20 Nov Award"
-            title="Best Game Award"
+            title=<p>"The Complete Guide Average Video
+              <br />
+              Game Designer Salary"</p>
           />
         </div>
         <div className="flex items-center justify-center mt-16">
           <Button variant={"outline"} className="font-bold tracking-1px">
-            ALL EVENTS
+            SHOW MORE
           </Button>
         </div>
       </div>

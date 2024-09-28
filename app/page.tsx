@@ -9,6 +9,7 @@ import { ServiceSection } from "@/components/home/service-section";
 import { EventSection } from "@/components/home/event-section";
 import { ReviewSection } from "@/components/home/review-section";
 import { AwardSection } from "@/components/home/award-section";
+import { BlogSection } from "@/components/home/blog-section";
 
 export default function Home() {
   return (
@@ -44,6 +45,10 @@ export default function Home() {
       <div className="mt-[218px]">
         <AwardSection />
       </div>
+      <div className="mt-[218px]">
+        <BlogSection />
+      </div>
+
     </div>
 
   );
