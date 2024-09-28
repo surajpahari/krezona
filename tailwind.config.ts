@@ -17,6 +17,7 @@ const config: Config = {
         sans: ['var(--font-barlow)']
       },
       colors: {
+        'regal-blue': '#6357F6',
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         card: {

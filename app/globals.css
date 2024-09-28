@@ -5,7 +5,9 @@
 body {
   font-family: var(--font-barlow);
 }
-
+.text-barlow-condensed{
+  font-family:var(--font-barlow-condensed)
+}
 @layer base {
   :root {
     --background: #181942;
