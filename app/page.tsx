@@ -1,6 +1,7 @@
 import { IntroSection } from "@/components/home/intro-section";
 import { AboutSection } from "../components/home/about-section";
 import { Navbar } from "@/components/navbar/navbar";
+import { Footer } from "@/components/footer";
 import { ExporeSection } from "@/components/home/explore-section";
 import { FeatureSection } from "@/components/home/feature-section";
 import { ProcessSection } from "@/components/home/process-section";
@@ -52,7 +53,9 @@ export default function Home() {
       <div className="mx-[23px] mt-[144px]">
         <ContactSection />
       </div>
-
+      <div className=" sm:mx-[135px] mx-[2px]">
+        <Footer />
+      </div>
     </div>
 
   );
