@@ -5,6 +5,7 @@ import { ExporeSection } from "@/components/home/explore-section";
 import { FeatureSection } from "@/components/home/feature-section";
 import { ProcessSection } from "@/components/home/process-section";
 import { StatSection } from "@/components/home/stat-section";
+import { ServiceSection } from "@/components/home/service-section";
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
       </div>
       <div className="mt-[154px]">
         <StatSection />
+      </div>
+      <div className="mt-[239px] mx-2 sm:mx-0">
+        <ServiceSection />
       </div>
     </div>
 
