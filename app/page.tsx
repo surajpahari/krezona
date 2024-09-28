@@ -10,6 +10,7 @@ import { EventSection } from "@/components/home/event-section";
 import { ReviewSection } from "@/components/home/review-section";
 import { AwardSection } from "@/components/home/award-section";
 import { BlogSection } from "@/components/home/blog-section";
+import { ContactSection } from "@/components/home/contact-section";
 
 export default function Home() {
   return (
@@ -47,6 +48,9 @@ export default function Home() {
       </div>
       <div className="mt-[218px]">
         <BlogSection />
+      </div>
+      <div className="mx-[23px] mt-[144px]">
+        <ContactSection />
       </div>
 
     </div>

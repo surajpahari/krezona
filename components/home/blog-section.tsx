@@ -30,7 +30,7 @@ export const BlogSection = () => {
           <BlogCard
             image={Event2}
             alt="image2"
-            description="20 Nov Award"
+            description="25 Nov Award"
 
             title=<p>
               The 5 Decisive Components
@@ -42,7 +42,7 @@ export const BlogSection = () => {
           <BlogCard
             image={Event3}
             alt="image3"
-            description="20 Nov Award"
+            description="21 Nov Award"
             title=<p>"The Complete Guide Average Video
               <br />
               Game Designer Salary"</p>

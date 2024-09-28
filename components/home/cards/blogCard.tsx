@@ -22,12 +22,13 @@ export const BlogCard = (blogInfo: BlogInfo) => {
         <div className="border-2 border-t-0 rounded-b-md border-[rgba(255,255,255,0.07)] ">
           {
             <div className="mx-8 pt-[26px] mb-[42px]">
-              <div className="text-normal  opacity-50 leading-8">
-                {blogInfo.description}
-              </div>
               <div className="font-light text-2xl leading-8 text-barlow-condensed flex-grow   mb-[20px]">
                 {blogInfo.title}
               </div>
+              <div className="text-normal  opacity-50 leading-8">
+                {blogInfo.description}
+              </div>
+
             </div>
           }
         </div>
