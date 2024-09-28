@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <>
       <div className="flex gap-2 pt-4 snb:px-[135px] px-2 font-barlow items-center justify-center">
-        <div className="flex-grow font-light text-[40px] leading-[48px]">
+        <div className="flex-grow font-light text-[40px] leading-[48px] text-barlow-condensed">
           <div>
             <span>
               GAM

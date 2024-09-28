@@ -10,7 +10,7 @@ export const ResearchCard = () => {
           <br />
           Research
         </div>
-        <div className=" text-base  leading-8 opacity-50">
+        <div className=" text-base  leading-8 opacity-60">
           Game Development is the art
           <br />
           of creating games and
