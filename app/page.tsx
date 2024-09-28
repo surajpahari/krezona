@@ -7,6 +7,8 @@ import { ProcessSection } from "@/components/home/process-section";
 import { StatSection } from "@/components/home/stat-section";
 import { ServiceSection } from "@/components/home/service-section";
 import { EventSection } from "@/components/home/event-section";
+import { ReviewSection } from "@/components/home/review-section";
+import { AwardSection } from "@/components/home/award-section";
 
 export default function Home() {
   return (
@@ -35,6 +37,12 @@ export default function Home() {
       </div>
       <div className="mt-[239px] mx-2 sm:mx-0">
         <EventSection />
+      </div>
+      <div className="mt-[230px]">
+        <ReviewSection />
+      </div>
+      <div className="mt-[218px]">
+        <AwardSection />
       </div>
     </div>
 
