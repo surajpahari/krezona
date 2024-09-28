@@ -17,11 +17,14 @@ const config: Config = {
         sans: ['var(--font-barlow)']
       },
       colors: {
+        'custom-blue-dark': '#2B2D66',
+        'custom-blue-light': '#4D4F95',
         'regal-blue': '#6357F6',
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         card: {
           DEFAULT: 'hsl(var(--card))',
+          background: 'var(--card-background)',
           foreground: 'hsl(var(--card-foreground))'
         },
         popover: {

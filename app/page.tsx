@@ -1,6 +1,7 @@
 import { IntroSection } from "@/components/home/intro-section";
 import { AboutSection } from "../components/home/about-section";
 import { Navbar } from "@/components/navbar/navbar";
+import { ExporeSection } from "@/components/home/explore-section";
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
       </div>
       <div className="mt-64 ">
         <AboutSection />
+      </div>
+      <div className="mt-44">
+        <ExporeSection />
       </div>
     </div>
 

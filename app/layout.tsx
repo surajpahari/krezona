@@ -19,12 +19,14 @@ const barlowCondensed = Barlow_Condensed({
   subsets: ["latin"],
   weight: ["400", "600"],
   variable: "--font-barlow-condensed",
+  display: "swap"
 });
 
 const barlow = Barlow({
   subsets: ["latin"],
   weight: ["400", "600"],
   variable: "--font-barlow",
+  display: "swap"
 });
 
 export const metadata: Metadata = {
