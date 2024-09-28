@@ -19,7 +19,10 @@ const config: Config = {
       colors: {
         'custom-blue-dark': '#2B2D66',
         'custom-blue-light': '#4D4F95',
-        'regal-blue': '#6357F6',
+        'pink': '#6357F6',
+        'blue': '#E6606C',
+        'darkblue': '#4D4F95',
+        'lightblue': '#2B2D66',
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         card: {

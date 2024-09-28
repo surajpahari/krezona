@@ -35,7 +35,6 @@ export const ExporeSection = () => {
           </Button>
         </div>
       </div>
-
     </div>)
 
 }
