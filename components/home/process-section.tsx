@@ -15,11 +15,11 @@ export const ProcessSection = () => {
         <div className="font-normal leading-8 opacity-50 text-center">
           Video game developers take a designer's concepts and build them into a playable <br /> game for users developers, also known as games developers.
         </div>
-        <div className="relative mt-[70px] mb-[304px] sm:mb-0">
-          <div className="absolute top-0  -translate-x-1/2 translate-y-1/4 sm:block hidden">
+        <div className="relative mt-[70px] mb-[304px] snb:mb-0">
+          <div className="absolute top-0  -translate-x-1/2 translate-y-1/4 scp:block hidden">
             <ResearchCard />
           </div>
-          <div className="absolute top-full  left-1/2 -translate-x-1/2 -translate-y-[48px]  sm:hidden">
+          <div className="absolute top-full  left-1/2 -translate-x-1/2 -translate-y-[48px]  scp:hidden">
             <ResearchCard />
           </div>
           <Image

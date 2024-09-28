@@ -9,7 +9,7 @@ body {
   font-family:var(--font-barlow-condensed)
 }
 .gradient-background{
-  background: linear-gradient(0deg, #2B2D66, #4D4F95);
+  /*background: linear-gradient(0deg, #2B2D66, #4D4F95);*/
 }
 @layer base {
   :root {

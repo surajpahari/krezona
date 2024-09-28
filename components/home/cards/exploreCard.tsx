@@ -40,7 +40,7 @@ export const ExploreCard = (exploreInfo: ExploreInfo) => {
 
               </div>
               :
-              <div className="mx-8 pt-[26px] mb-[42px]">
+              <div className="mx-8 pt-[26px] mb-[24px]">
                 <div className="text-normal  opacity-50 leading-8">
                   {exploreInfo.description}
                 </div>

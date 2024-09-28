@@ -6,7 +6,7 @@ import PlainHex from "@/public/plainhex.png"
 export const ReviewSection = () => {
   return (
     <>
-      <div className="flex items-center justify-center gap-[130px]">
+      <div className="flex items-center justify-center gap-[130px] flex-wrap">
         <div >
           <div className=" mb-4 leading-8 tracking-[3px] opacity-50">
             <span className="leading-8 tracking-[3px] opacity-50">

@@ -12,6 +12,7 @@ const config: Config = {
       screens: {
         "mnb": '1353px',
         "snb": '900px',
+        'scp': '1040px' //process section breakpoint
       },
       fontFamily: {
         sans: ['var(--font-barlow)']
@@ -23,6 +24,7 @@ const config: Config = {
         'blue': '#E6606C',
         'darkblue': '#4D4F95',
         'lightblue': '#2B2D66',
+
         background: 'var(--background)',
         foreground: 'var(--foreground)',
         card: {

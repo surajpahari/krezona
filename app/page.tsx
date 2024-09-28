@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <div className="">
       <Navbar />
-      <div className="mt-[100px] sm:mx-[135px] mx-[23px]">
+      <div className="pt-[100px] sm:px-[100px] px-[2px] gradient-background">
         <IntroSection />
       </div>
-      <div className="mt-64 ">
+      <div className="pt-64 gradient-background-l">
         <AboutSection />
       </div>
       <div className="mt-44">

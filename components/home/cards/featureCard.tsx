@@ -11,7 +11,7 @@ type FeatureInfo = {
 export const FeatureCard = (featureInfo: FeatureInfo) => {
   return (
     <>
-      <div className="mt-[102px] flex flex-col justify-center">
+      <div className="mt-[102px] flex flex-col justify-center ">
         <div className="w-full">
           <div className=" relative w-full">
             <div className="absolute -translate-y-[64px]  translate-x-1/2">
@@ -24,7 +24,7 @@ export const FeatureCard = (featureInfo: FeatureInfo) => {
             </div>
           </div>
         </div>
-        <div className="pt-[76px] pb-[26px] flex flex-col items-center justify-center border-2 rounded-xl px-10 border-[rgba(255,255,255,0.07)]">
+        <div className="pt-[76px] pb-[26px] flex flex-col bg-gradient-to-t from-lightblue to-darkblue items-center justify-center border-2 rounded-xl px-10 border-[rgba(255,255,255,0.07)]">
           <div className="text-barlow-condensed font-light leading-12 text-[40px]">
             {featureInfo.title}
           </div>
